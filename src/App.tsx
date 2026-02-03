@@ -415,7 +415,6 @@ function App() {
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left">
               <h2 className="font-display text-3xl font-bold mb-2">Let's Build Together</h2>
-              <p className="text-text-secondary">Open for new opportunities in Product & Data Engineering.</p>
             </div>
             
             <div className="flex gap-6">

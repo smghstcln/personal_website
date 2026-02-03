@@ -8,7 +8,7 @@ function Node({ position, label, color, connections, size }: { position: [number
   const ref = useRef<THREE.Group>(null!)
   const [hovered, setHover] = useState(false)
 
-  useFrame((state) => {
+  useFrame(() => {
     // Subtle breathing animation
     if (hovered) {
       ref.current.scale.lerp(new THREE.Vector3(1.2, 1.2, 1.2), 0.1)

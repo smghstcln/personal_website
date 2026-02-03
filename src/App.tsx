@@ -137,7 +137,7 @@ function App() {
           <a href="#work" className="hover:opacity-70 transition-opacity">Work</a>
           <a href="#projects" className="hover:opacity-70 transition-opacity">Projects</a>
           <a href="#about" className="hover:opacity-70 transition-opacity">Technical Arsenal</a>
-          <a href="#contact" className="hover:opacity-70 transition-opacity">Contact</a>
+          <button onClick={() => setIsContactOpen(true)} className="hover:opacity-70 transition-opacity">Contact</button>
         </div>
       </nav>
 
